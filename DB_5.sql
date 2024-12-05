@@ -2,13 +2,13 @@
 INSERT INTO users(id,first_name,last_name,email,password,address,contact,gender,is_active,is_staff)
 VALUES (2,'hs','park','fdas@.com','1111','ewrq','1423','MALE',1,1),
 	(3,'john','park','acxvz@.com','1111','dfgs','2341','FEMALE',1,1),
-	(4,'hoo','kim','asdfdas3@.com','1111','ghnf','2564','FEMALE',1,1),
-	(5,'yo','hwnag','aqsfdf@.com','1111','d1hrteyg','5423','MALE',1,1),
-	(6,'in','king','afdsasd@com','1111','das124f','6574','FEMALE',1,1),
-	(7,'hae','park','asfdsaf4df@com','1111','dafdsasf','1432','FEMALE',1,1),
-	(8,'woo','lee','as1fewq4df@com','1111','da1bvc','5674','MALE',1,1),
-	(9,'sik','kim','asd1hgtdfrsf@com','1111','da1qwer','2345','MALE',1,1),
-	(10,'hyun','kim','fdsae@com','1111','dfdssf','1534','MALE',1,1);
+	(4,'jjong','paik','asdfdas3@.com','1111','ghnf','2564','FEMALE',1,1),
+	(5,'sin','hwnag','aqsfdf@.com','1111','d1hrteyg','5423','MALE',1,1),
+	(6,'orc','man','afdsasd@com','1111','das124f','6574','FEMALE',1,1),
+	(7,'look','ki','asfdsaf4df@com','1111','dafdsasf','1432','FEMALE',1,1),
+	(8,'u','xiao','as1fewq4df@com','1111','da1bvc','5674','MALE',1,1),
+	(9,'miyuki','haruki','asd1hgtdfrsf@com','1111','da1qwer','2345','MALE',1,1),
+	(10,'hyun','park','fdsae@com','1111','dfdssf','1534','MALE',1,1);
 
 -- 2
 INSERT INTO raw_materials(id,name,price)
