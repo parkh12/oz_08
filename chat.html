@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>채팅방 만들기</title>
+    <link href="chat.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container"> 
+        <main class="chat-screen">
+            <section class="chat-screen_bar">
+                <div class="user">
+                    <div class="user_column">
+                        <div class="user_pic"></div>
+                    </div>
+                    <div class="user_column">
+                        <p class="user_nick">친구</p>
+                        <p class="user_count">2</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <form class="chat-form">
+            <section class="chat-form_field">
+                <textarea class="chat-form_msg"></textarea>
+                <input type="submit" value="전송" class="chat-form_bt">
+            </section>
+        </form>
+    </div>
+</body>
+</html>
+
+/* css내용 */
+
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+.container{
+    height: 100%;
+    background-color: aqua;
+}
+
+.chat-screen{
+    height: calc(100% - 120px);
+}
+
+.user{
+    background-color: aliceblue;
+    padding: 16px;
+    height: 80px;
+}
+.user_culumn{
+    float: left;
+}
+.user_pic{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+.user_nick, .user_count{
+    margin: 5px;
+}
+.user_count{
+    font-size: 12px;
+    color: gray;
+}
+.chat-form{
+    height: 120px;
+    background-color:aliceblue ;
+}
+.chat-form_filed{
+    height: 120px;
+}
+.chat-form_msg{
+    width: calc(100%-120px);
+    height: 120px;
+    border: none;
+    resize: none;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.chat-form_bt{
+    float: right;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: gold;
+    font-size: 18px;
+}
+
+.chat-form_msg:focus{
+    outline: none;
+}
+
+.chat-form_bt:active{
+    background-color: goldenrod;
+}
